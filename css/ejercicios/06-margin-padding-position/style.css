@@ -1,0 +1,51 @@
+body {
+  background: #eee;
+  font-family: sans-serif;
+ 
+}
+
+.card {
+  font-size: 16px;
+  padding: 8px;
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+}
+
+.title {
+  margin: 8px;
+  background: #e3f4ff;
+  font-size: 16px;
+}
+
+.content {
+  margin: 8px;
+  background: #e3f4ff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.button-container {
+  margin: 8px;
+  background: #e3f4ff;
+  padding: 8px;
+}
+
+button {
+  margin: 8px;
+  background: white;
+  border: 1px solid #eee;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* - Hay un hueco de 8px entre las diferentes secciones azules.
+- El titulo de la carta (la primera sección azul) tiene un tamaño de fuente de 16px.
+- Hay 8px entre el titulo y el borde de dicha sección.
+- La sección del medio tiene un espacio de 16px entre la parte superior y la inferior, y 8px a ambos lados.
+- Todo dentro del .button-container está centrado con 8px de padding.
+- El botón está centrado en su propia posición y tiene 24px de espacio a los lados, y 8px arriba y abajo. */

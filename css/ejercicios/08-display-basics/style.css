@@ -1,0 +1,35 @@
+
+div {
+  height: 40px;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  display: inline-flex;
+  background-color: #e74c3c;
+}
+
+p {
+  height: 40px;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  display: inline-flex;
+  background-color: #9b59b6;
+}
+span {
+    height: 40px;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  display: inline-flex;
+  background-color: #3498db;
+}
+
+a {
+    height: 40px;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  display: inline-flex;
+  background-color: #2ecc71;
+}

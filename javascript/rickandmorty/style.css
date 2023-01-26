@@ -1,0 +1,19 @@
+.card {
+  background-color: gold ;
+  width: 100%;
+  padding-bottom: 10%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: -2px 1px 58px -4px rgba(255, 255, 255, 1);
+}
+
+img {
+  background-color: black;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+button {
+  background-color: royalblue
+}
