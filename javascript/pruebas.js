@@ -213,26 +213,6 @@ fryEgg();
 
 
 
-//*Hacemos un huevo frito.
-//*1.Compramos aceite, huevos y sal. 
-//*2. calentamos el aceite 
-//*3. echamos el huevo por tiempo. 
-//*4. servimos el huevo.
 
-
-function fryEgg() {
-  console.log("Cracking egg into pan...");
-  setTimeout(() => {
-    console.log("Egg is sizzling...");
-    setTimeout(() => {
-      console.log("Flipping egg...");
-      setTimeout(() => {
-        console.log("Egg is cooked to perfection!");
-      }, 5000);
-    }, 10000);
-  }, 5000);
-}
-
-fryEgg();
 
 

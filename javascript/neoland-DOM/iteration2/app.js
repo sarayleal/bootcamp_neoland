@@ -47,17 +47,8 @@ for (const node of removeNodes) {
 
 /* 2.8 Inserta una p con el texto 'Voy en medio!' entre los dos div. 
 	Recuerda que no solo puedes insertar elementos con .appendChild */
-const listDiv = document.getElementsByName('div')
-listDiv.insertAdjacentHTML('afterbegin', '<div><p>Voy en medio!</p></div>')
-
-
-/* 	let box2 = document.getElementById('box2');
-box2.insertAdjacentHTML('beforebegin', '<div><p>un parrafo nuevo.</p></div>');
-
-// beforebegin - El nuevo HTML es insertado justo antes del elemento, a la misma altura (hermano).
-// afterbegin - El nuevo HTML se inserta dentro del elemento, antes del primer hijo.
-// beforeend - El nuevo HTML se inserta dentro del elemento, después del último hijo.
-// afterend - El nuevo HTML es insertado justo después del elemento, a la misma altura (hermano). */
+const listDiv = document.getElementsByName("div");
+listDiv.insertAdjacentHTML("beforebegin", "<div><p>Voy en medio!</p></div>");
 
 /* 2.9 Inserta p con el texto 'Voy dentro!', dentro de todos los div con la clase .fn-insert-here */
 const divs = document.querySelectorAll("div");

@@ -1,4 +1,4 @@
-//*  iteration1-includes
+/*  iteration1-includes*/
 /*Haz un bucle y muestra por consola todos aquellos valores del array que incluyan la palabra "Camiseta". 
 Usa la función .includes de javascript.*/
 
@@ -15,7 +15,7 @@ for (let i = 0; i < products.length; i++) {
   if (products[i].includes("Camiseta")) console.log(products[i]);
 }
 
-//*Iteración #2: Condicionales avanzados
+/* Iteración #2: Condicionales avanzados */
 /* Comprueba en cada uno de los usuarios que tenga al menos dos trimestres aprobados y 
 añade la propiedad isApproved a true o false en consecuencia.
 Una vez lo tengas compruébalo con un console.log. */
@@ -41,7 +41,7 @@ alumns.forEach((alumn) => {
 });
 console.log(alumns);
 
-//* Iteración #3: Probando For...of
+/* Iteración #3: Probando For...of*/
 //Usa un bucle forof para recorrer todos los destinos del array. Imprime en un*console.log sus valores.
 const placesToTravel = [
   "Japon",
@@ -56,7 +56,7 @@ for (let placeToTravel of placesToTravel) {
   console.log(placesToTravel);
 }
 
-//*Iteración #4: Probando For...in
+/*Iteración #4: Probando For...in*/
 //Usa un for...in para imprimir por consola los datos del alienígena..
 const alien = {
   name: "Wormuck",
@@ -69,7 +69,7 @@ for (value in alien) {
   console.log(alien);
 }
 
-//*Iteración #5: Probando For
+/*Iteración #5: Probando For*/
 // Usa un bucle for para recorrer todos los destinos del array y elimina los elementos que tengan el id 11 y 40. Imprime en un console log el array.
 
 const placesToTravel2 = [
@@ -85,12 +85,11 @@ let otherPlaces = [];
 
 for (let i = 0; (i = placesToTravel2.length); i++) {
   if (placesToTravel2[i] !== 11 && placesToTravel2[i] !== 40) {
-  }
   otherPlaces.push(placesToTravel2);
-}
+}}
 console.log(otherPlaces);
 
-//*Iteración #6: Mixed For...of e includes
+/*Iteración #6: Mixed For...of e includes*/
 // Usa un bucle for...of para recorrer todos los juguetes y elimina los que incluyan la palabra gato. Recuerda que puedes usar la función .includes() para comprobarlo
 
 const toys = [
@@ -108,7 +107,7 @@ for (const toy of toys) {
 }
 console.log(sentence);
 
-//*Iteración #7: For...of avanzado
+/*Iteración #7: For...of avanzado*/
 //Usa un bucle for...of para recorrer todos los juguetes y añade los que tengan más de 15 ventas (sellCount) al array popularToys. Imprimelo por consola.
 
 const toys4 = [
