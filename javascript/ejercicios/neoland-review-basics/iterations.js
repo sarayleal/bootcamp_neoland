@@ -129,18 +129,26 @@ console.log(count);
 
 Crea una función llamada `findArrayIndex` que reciba como parametros un array de textos y un texto y devuelve la posición del array cuando el valor del array sea igual al valor del texto que enviaste como parametro. Haz varios ejemplos y compruebalos. */
 function findArrayIndex(array, text) {
-    return (array.indexOf(text));
+  return array.indexOf(text);
 }
-console.log(findArrayIndex(["Saray","David","Asier","India"],"India"));
-console.log(findArrayIndex(["pedro","juan","carlos","maria"],"carlos"));
+console.log(findArrayIndex(["Saray", "David", "Asier", "India"], "India"));
+console.log(findArrayIndex(["pedro", "juan", "carlos", "maria"], "carlos"));
 
 /* 1.5 Función rollDice**
 Crea una función llamada **rollDice()** que reciba como parametro el numero de caras que queramos que tenga el dado que deberá silumar el codigo dentro de la función. Como hemos dicho, que la función use el parametro para simular una tirada de dado y retornar el resultado. Si no se te ocurre como hacer un numero aleatorio no te preocupes! busca información sobre la función de javascript **Math.random();** */
 
 function rollDice(numFaces) {
-    return Math.floor(Math.random() * numFaces) +1;
+  return Math.floor(Math.random() * numFaces) + 1;
 }
 console.log(rollDice(6));
 
-
 /* 1.6**Función swap**Crea una función llamada `swap()` que reciba un array y dos parametros que sean indices del array. La función deberá intercambiar la posición de los valores de los indices que hayamos enviado como parametro. Retorna el array resultante.*/
+const myArray = [1, 2, 3, 4, 5];
+
+function swap(array, index1, index2) {
+  const temporary = array[index1];
+  array[index1] = array[index2];
+  array[index2] = temporary;
+  return array;
+}
+console.log(swap(myArray, 1, 3));
