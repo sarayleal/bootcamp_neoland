@@ -9,13 +9,17 @@ document.body.appendChild(insertDiv2);
 insertDiv2.textContent = "Ya hemos insertado el div 2";
 
 /* 2.3 Inserta dinamicamente en un html un div que contenga 6 p utilizando un loop con javascript. */
-/* const insertDivP = document.createElement('div')
-const divP = document.createElement('p')
-for(let i=0; i<6; i++) {
-	
-	insertDivP.body.appendChild('p')
-}
-document.body.appendChild(insertDivP) */
+
+
+
+
+
+
+
+
+
+
+
 
 /* 2.4 Inserta dinamicamente con javascript en un html una p con el texto 'Soy dinámico!'.*/
 const insertText = document.createElement("p");
@@ -47,13 +51,13 @@ for (const node of removeNodes) {
 
 /* 2.8 Inserta una p con el texto 'Voy en medio!' entre los dos div. 
 	Recuerda que no solo puedes insertar elementos con .appendChild */
-const listDiv = document.getElementsByName("div");
-listDiv.insertAdjacentHTML("beforebegin", "<div><p>Voy en medio!</p></div>");
+  
+  
 
 /* 2.9 Inserta p con el texto 'Voy dentro!', dentro de todos los div con la clase .fn-insert-here */
-const divs = document.querySelectorAll("div");
-for (const div of divs) {
-  if (div.classList.contains(".fn-insert-here")) {
-    div.innerHTML = `<p>'Voy dentro!'</p>`;
-  }
-}
+document.querySelectorAll('.fn-insert-here').forEach(function(div) {
+  div.innerHTML += '<p>Voy dentro!</p>';
+});
+
+
+
